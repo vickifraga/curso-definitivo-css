@@ -22,6 +22,35 @@ body {
    font-family: 'Poppins', sans-serif;
    margin: 0;
 }
+
+nav {
+    margin-top: 24px;
+    justify-content: center;
+}
+.main-nav {
+    padding: 0;
+    list-style: none;
+    font-size: var(--sm);
+    font-weight: bold;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: var(--cute-orange);
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 12px;
+    margin-left: 48px;
+}
+.main-nav__item a:hover {
+    color: var(--darkpink);
+    border-color: var(--darkpink);
+}
+.main-nav__item a:active {
+    background-color: var(--darkpink);
+    color: white;
+}
+
 .primary-card {
     width: 40rem;
     min-height: 35rem;

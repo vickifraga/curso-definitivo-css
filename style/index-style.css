@@ -47,9 +47,16 @@ nav {
     border-radius: 12px;
     margin-left: 48px;
 }
+#nav-yelena a{
+    color: var(--darkpink);
+}
 .main-nav__item a:hover {
     color: var(--darkpink);
     border-color: var(--darkpink);
+}
+#nav-yelena a:hover {
+    color: var(--cool-green);
+    border-color: var(--cool-green);
 }
 .main-nav__item a:active {
     background-color: var(--darkpink);

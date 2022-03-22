@@ -15,18 +15,49 @@
     <header>
         <nav>
             <ul class="main-nav">
+                <li class="main-nav__item"> <a href="./index.html">Home</a></li>
                 <li class="main-nav__item"> <a href="./meats.html">Meats</a></li>
                 <li class="main-nav__item"> <a href="./veggies.html">Veggies</a></li>
                 <li class="main-nav__item"> <a href="./fruits.html">Fruits</a></li>
-                <li class="main-nav__item"> <a href="./dinner.html">Dinner</a></li>
-                <li class="main-nav__item"> <a href="./desserts.html">Dessert</a></li>
+                
             </ul>
         </nav>
     </header>
     <main>
-        <section class="main-section">
-            <h1>This is the fruits section</h1>
+        <section class="title-section">
+            <div class="title-section__main-item">
+                <h1>This is the </h1><h1 id="h1-strong">fruits </h1><h1>section</h1>
+            </div>
             <p>Let's go! </p>
+            <p class="instruction">Click the titles to go to a great recipe</p>
+        </section>
+            
+        <!-- Empiza la sección de recetas -->
+
+        <section class="recipes-main-container">
+            <ul class="recipes">
+                <li>
+                    <a href="https://tasty.co/recipe/blueberry-croissant-breakfast-bake" class="recipes__title" target="_blank">Blueberries</a>
+                    <figure>
+                        <img src="./pics/blueberries.jpg" alt="iImage of a blueberries bowl" >
+                        <figcaption>Image of a blueberries bowl</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <a href="https://tasty.co/recipe/jerk-chicken-and-pineapple-skewers" class="recipes__title" target="_blank">Pineapple</a>
+                    <figure>
+                        <img src="./pics/piña.jpg" alt="Image of a pineapple">
+                        <figcaption>Image of a pineapple</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <a href="https://tasty.co/recipe/strawberry-cheesecake-french-toast" class="recipes__title" target="_blank">Strawberries</a>
+                    <figure>
+                        <img src="./pics/fresa.jpg" alt="Image of three strawberries">
+                        <figcaption>Image of three strawberries</figcaption>
+                    </figure>
+                </li>
+            </ul>
         </section>
     </main>
 </body>

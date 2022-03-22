@@ -15,18 +15,48 @@
     <header>
         <nav>
             <ul class="main-nav">
+                <li class="main-nav__item"> <a href="./index.html">Home</a></li>
                 <li class="main-nav__item"> <a href="./meats.html">Meats</a></li>
                 <li class="main-nav__item"> <a href="./veggies.html">Veggies</a></li>
                 <li class="main-nav__item"> <a href="./fruits.html">Fruits</a></li>
-                <li class="main-nav__item"> <a href="./dinner.html">Dinner</a></li>
-                <li class="main-nav__item"> <a href="./desserts.html">Dessert</a></li>
+                
             </ul>
         </nav>
     </header>
     <main>
-        <section class="main-section">
-            <h1>This is the veggies section</h1>
+        <section class="title-section">
+            <div class="title-section__main-item">
+                <h1>This is the </h1><h1 id="h1-strong">veggies </h1><h1>section</h1>
+            </div>
             <p>Let's go! </p>
+            <p class="instruction">Click the titles to go to a great recipe</p>
+        </section>
+            
+        <!-- Empiza la sección de recetas -->
+
+        <section class="recipes-main-container">
+            <ul class="recipes">
+                <li>
+                    <a href="https://tasty.co/recipe/zucchini-ravioli" class="recipes__title" target="_blank">Zucchini</a>
+                    <figure>
+                        <img src="./pics/calabaza.jpg" alt="Image of fresh zucchini">
+                    </figure>
+                    <figcaption>Image of fresh zucchini</figcaption>
+                </li>
+                <li>
+                    <a href="https://tasty.co/recipe/mozzarella-stick-onion-rings" class="recipes__title" target="_blank">Onion</a>
+                    <figure>
+                        <img src="./pics/cebolla.jpg" alt="">
+                        <figcaption>Image of Onions</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <a href="https://tasty.co/recipe/carrot-cake" class="recipes__title" target="_blank">Zanahoria</a>
+                    <figure>
+                        <img src="./pics/zanahoria.jpg" alt="Imagen de zanahorias">
+                        <figcaption>Imagen de zanahorias</figcaption>
+                    </figure>
+            </ul>
         </section>
     </main>
 </body>
