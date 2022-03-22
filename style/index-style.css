@@ -14,8 +14,7 @@ html {
     }
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    
 }
 
 body {
@@ -31,7 +30,10 @@ nav {
     font-size: var(--sm);
     
 }
-
+.logo {
+    width: 100px;
+    
+}
 .main-nav__item {
     font-weight: 600;
     display: inline-block;
@@ -49,13 +51,14 @@ nav {
     color: var(--darkpink);
     border-color: var(--darkpink);
 }
-.main-nav__item a:active{
+.main-nav__item a:active {
     background-color: var(--darkpink);
     color: white;
 }
 
 main {
-    
+    padding: 0;
+    margin: 0;
     
 }
 
